@@ -1,0 +1,16 @@
+
+# ******************************  UserInput Interview Question ***********************************
+
+Why python treats every user input as string,
+because string is a universal format,
+which means anything we can store in string format,
+and those things need to be changed; we can easily change
+
+
+# ******************************  TypeCast Interview Question ***********************************
+
+Type conversion operation in python does not change the original data,
+but it creates a new value, But Original will be the same
+
+1 - Implicit Type Casting
+2 - Explicit Type Casting

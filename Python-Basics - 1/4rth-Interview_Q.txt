@@ -1,0 +1,6 @@
+
+
+# ******************************  Literals Interview Question ***********************************
+
+We cannot make any variable before use; actually Python allows that whenever you want any variable, first you have to create first.
+To solve this error, we can use None keyword, which represents nothing

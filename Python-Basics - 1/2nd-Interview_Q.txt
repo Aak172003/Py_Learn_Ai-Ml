@@ -1,0 +1,83 @@
+
+# ******************************  DataType Interview Question ***********************************
+
+In Python, the terms "mutable" and "immutable" refer to whether an object's state can be changed or not after it is created.
+
+1. **Mutable:**
+
+   - **List:** Lists are mutable. You can modify their elements by assigning new values or using methods like `append()`, `extend()`, `insert()`, `remove()`, or `pop()`.
+   - **Set:** Sets are mutable. You can add or remove elements using methods like `add()`, `remove()`, or `discard()`.
+   - **Dictionary:** Dictionaries are mutable. You can add, modify, or remove key-value pairs using various methods.
+
+2. **Immutable:**
+
+   - **Tuple: ** Tuples are immutable. Once a tuple is created, you cannot change its elements. You can, however, create a new tuple with different values.
+   - **String: ** Though you didn't mention it, strings are also immutable in Python. Once a string is created, you cannot modify its characters.
+   - **Frozen Set: ** Similar to sets, but frozen sets are immutable.
+                      Once a frozen set is created, you cannot add or remove elements.
+
+## Frozen Set
+
+In Python, a frozen set is an immutable version of a set.
+While a regular set allows you to add, remove, or update elements, a frozen set doesn't support such operations once it's created.
+Once you define the elements of a frozen set, they cannot be changed.
+This immutability makes frozen sets suitable for situations where you want a set-like data structure with the guarantee that its content won't change.
+
+Here's an example of creating a frozen set in Python:
+
+```python
+# Creating a regular set
+normal_set = {1, 2, 3, 4, 5}
+
+# Creating a frozen set from the normal set
+frozen_set = frozenset(normal_set)
+
+print("Normal Set:", normal_set)
+print("Frozen Set:", frozen_set)
+```
+
+In this example, `frozenset()` is used to create a frozen set from `normal_set`.
+Once the frozen set is created, you cannot add or remove elements from it.
+
+Attempting to do so will result in an error.
+
+# Attempting to add an element to a frozen set (this will raise an error)
+# frozen_set.add(6)
+# TypeError: 'frozenset' object has no attribute 'add'
+
+It's important to note that while frozen sets are immutable, regular sets are mutable.
+So, if you need a set that can be modified after creation, you would use a regular set.
+
+#### If immutability is desired, then a frozen set is the appropriate choice.
+
+
+# ******************************  Variables Interview Question ***********************************
+
+1st Question :
+
+Dynamic Typing
+Simple means we don't tell the data type of the variable
+
+name = "Aakash"
+print(name)
+
+Static typing:
+Means here we need to define the data type of the variable , which means python is Dynamic type Language .
+
+string name = "Aakash"
+print(name)
+
+2nd Question :
+
+Dynamic Binding -> Data type not fixed
+a = "Aakash"
+print(a)
+
+a = 1
+print(a)
+
+This does not give error in Python, because python supports dynamic binding,
+But other c, c++ and java do not support
+
+Static Binding ->
+Data type fixed or that can store similar kind of value

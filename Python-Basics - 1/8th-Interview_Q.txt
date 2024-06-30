@@ -1,0 +1,17 @@
+
+# ******************************  1st Interview Question ***********************************
+
+if we use any
+
+Capitalize
+Title
+Upper / Lower
+Swap case
+
+from above so it will not directly change into original,
+actually it creates a new memory location, and that modified stored in this
+
+# ******************************  2nd Interview Question ***********************************
+
+Find -> jo nhi milta , return -1
+Index -> jo nhi milta , give error
