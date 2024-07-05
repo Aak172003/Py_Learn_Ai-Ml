@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df_1 = pd.read_csv('D:\\Python_Things\\Py_Learn\\Practical_Tools\\Csv_Files\\customers-1000.csv')
+df_1 = pd.read_csv('D:\\Python_Things\\Py_Learn-main\\Practical_Tools\\Csv_Files\\customers-1000.csv')
 print(df_1)
 
 # ------------------------  Na_Values  --------------------------------
@@ -78,10 +78,10 @@ print(df_1)
 
 # First traverse on dataset and found any null value, so this removes that particular row and column and creates not null datasets for better processing
 
-df_6 = pd.read_csv('D:\\Python_Things\\Py_Learn\\Practical_Tools\\Csv_Files\\customers-1000.csv')
+df_6 = pd.read_csv('D:\\Python_Things\\Py_Learn-main\\Practical_Tools\\Csv_Files\\customers-1000.csv')
 
 print(df_6.head(10))
-# Remove that particular row and column from datasets who has null value
+# Remove that particular row and column from datasets who have null value
 print(df_6.dropna())
 # by default, axis 0 (means row)
 
