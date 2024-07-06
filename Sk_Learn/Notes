@@ -1,0 +1,22 @@
+
+Composite transformer are of 3 types
+
+1. Column Transformer :
+
+Column transformer is a kind of transformer , which is most suitable for heterogeneous data
+means we have single datasets with different different datasets
+so with column transformer we can able to apply different different transforms on different different columns
+After horizontally concatenate we get more number of columns
+
+
+2. Feature Union :
+
+Apply multiple Transformation
+But these transformations apply to parallel
+Apply on entire datasets
+
+3. Pipeline :
+
+Apply multiple Transformation
+But these transformations apply on sequentially (Output of previous transformation becomes input for the next transformer)
+Apply on entire datasets
